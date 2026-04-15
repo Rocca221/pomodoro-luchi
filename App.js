@@ -25,7 +25,7 @@ export default function App() {
   const playClick = async () => {
     try {
       const { sound } = await Audio.Sound.createAsync(
-        require('./assets/3dabrar-funny-alarm-317531.mp3e'),
+        require('./assets/freesound_comm'),
         { shouldPlay: true }
       );
       sound.setOnPlaybackStatusUpdate((status) => {

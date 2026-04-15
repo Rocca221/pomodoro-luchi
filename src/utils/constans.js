@@ -6,8 +6,11 @@ export const MODES = {
 };
 
 export const COLORS = {
-  primary: '#FF5252',
-  success: '#4CAF50',
-  text: '#333',
-  bg: '#F5F5F5'
+  primary: '#1E88E5',    // azul celeste — botón PARAR
+  success: '#29B6F6',    // celeste claro — botón INICIAR
+  text: '#0D47A1',       // azul oscuro — títulos y texto principal
+  bg: '#EAF4FB',         // fondo azul muy claro, casi blanco
+  tabBg: '#FFFFFF',      // fondo blanco para las tabs
+  tabActive: '#1E88E5',  // tab seleccionada azul
+  tabInactive: '#90CAF9',// tab no seleccionada celeste suave
 };
