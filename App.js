@@ -38,7 +38,7 @@ export default function App() {
   const playAlarm = async () => {
     try {
       const { sound } = await Audio.Sound.createAsync(
-        require('./assets/3dabrar-funny-alarm-317531.mp3'), // Asegurate que el archivo se llame así
+        require('./assets/freesound_comm.mp3'), // Asegurate que el archivo se llame así
         { shouldPlay: true, isLooping: true }
       );
       alarmSoundRef.current = sound;
